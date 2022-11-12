@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__top">
+				<a href="#">
+					<img src="/images/logo.svg" alt="logo" class="header__logo-img"></a>
+				<div class="header__burger">
+					<button class="burger" onclick="openModal()"></button>
+				</div>
+				<nav class="header__menu">
+					<ul class="menu__list">
+						<li><a class="menu__list-item " href="#events">Мероприятия</a></li>
+						<li><a class="menu__list-item " href="#schedule">Расписание</a></li>
+						<li><a class="menu__list-item " href="#subscription">О компании</a></li>
+					</ul>
+				</nav>
+				<div class="header__icons">
+					<a href="#" class="header__icons-inst"></a>
+					<a href="#" class="header__icons-facebook"></a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="banner">
+		<div class="container">
+			<div class="banner__content">
+				<img src="/images/Image 1 screen@2x.png" alt="banner-img" class="banner-img">
+				<h1 class="banner__title">онлайн тренировки любой сложности</h1>
+				<p class="banner__subtitle">
+					<span>&gt;&nbsp;15</span>&nbsp;<span>тренировок</span>
+				</p>
+				<div class="banner__bottom">
+					<p class="banner__descr">в области спортивной физиологии и нутрициологии</p>
+					<button class="banner__btn">Узнать подробнее</button>
+				</div>
+				<div class="banner__gradient"></div>
+				<div class="banner__arrow">
+					<a href="#schedule" class="banner__arrow-link">
+						<img src="/images/arrow.svg" alt="arrow" class="banner__arrow-img">
+					</a>
+				</div>
+			</div>
+		</div>
+		</div>
+	</main>
+	
+	<section class="develop" id="events">
+		<div class="container">
+			<h2 class="develop__title">
+				Ближайшие события
+			</h2>
+			<div class="develope__block">
+				<div class="block__items-marathon">
+					<div class="block__marathon block__marathon-img">
+						<div class="block__info">
+							<p class="info__data">29.06 - 4.07</p>
+							<p class="info__subtitle">Марафон выносливости</p>
+						</div>
+						<div class="block__hover">
+							<button class="block__join">записаться</button>
+						</div>
+						<div class="block__btn">
+							марафон
+						</div>
+						<a href="#" class="block__plus">
+							<img src="/images/plus.svg" alt="plus" class="block__plus-img">
+						</a>
+					</div>
+				</div>
+				<div class="block__items-marathon">
+					<div class="block__marathon block__webinar-img">
+						<div class="block__info">
+							<p class="info__data">9.07</p>
+							<p class="info__subtitle info__subtitle-width">Как стать тренером?</p>
+						</div>
+						<div class="block__hover">
+							<button class="block__join">записаться</button>
+						</div>
+						<div class="block__btn">
+							вебинар
+						</div>
+						<a href="#" class="block__plus">
+							<img src="/images/plus.svg" alt="plus" class="block__plus-img">
+						</a>
+					</div>
+				</div>
+				<div class="block__items-marathon">
+					<div class="block__marathon block__webinar-2-img">
+						<div class="block__info">
+							<p class="info__data">15.07</p>
+							<p class="info__subtitle">Йога, как стиль жизни</p>
+						</div>
+						<div class="block__hover">
+							<button class="block__join">записаться</button>
+						</div>
+						<div class="block__btn">
+							вебинар
+						</div>
+						<a href="#" class="block__plus">
+							<img src="/images/plus.svg" alt="plus" class="block__plus-img">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="timetable" id="schedule">
+		<div class="container">
+			<div class="timetable__header">
+				<h2 class="header__title">Расписание тренировок</h2>
+				<div class="header__subtitle">22 - 28 июня</div>
+			</div>
+			<div class="timetable__items">
+				<div class="timetable__item">
+					<div class="item__date">22 июня, 10:00</div>
+					<div class="item__img">
+						<img src="/images/body.svg" alt="body" class="item__img">
+					</div>
+					<div class="item__title">Функциональный тренинг</div>
+				</div>
+				<div class="timetable__item">
+					<div class="item__date">24 июня, 10:00</div>
+					<div class="item__img">
+						<img src="/images/bottle.svg" alt="botlle" class="item__img">
+					</div>
+					<div class="item__title">Body sculpt</div>
+				</div>
+				<div class="timetable__item">
+					<div class="item__date">26 июня, 11:00</div>
+					<div class="item__img">
+						<img src="/images/dumbbell.svg" alt="dumbbell" class="item__img">
+					</div>
+					<div class="item__title">L.A.B.</div>
+				</div>
+				<div class="timetable__item">
+					<div class="item__date">23 июня, 10:00</div>
+					<div class="item__img">
+						<img src="/images/jump.svg" alt="jump" class="item__img">
+					</div>
+					<div class="item__title">Силовой микс</div>
+				</div>
+				<div class="timetable__item">
+					<div class="item__date">25 июня, 11:00</div>
+					<div class="item__img">
+						<img src="/images/heart.svg" alt="heart" class="item__img">
+					</div>
+					<div class="item__title">Дыхательные практики</div>
+				</div>
+				<div class="timetable__item">
+					<div class="item__date">27 июня, 10:00</div>
+					<div class="item__img">
+						<img src="/images/weight.svg" alt="weight" class="item__img">
+					</div>
+					<div class="item__title">Комплексная разминка</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="subscription" id="subscription">
+		<div class="h2__subscription">
+			<div class="subscription__circle"></div>
+			<h2 class="h2">Подпишитесь на рассылку</h2>
+		</div>
+		<form action="">
+			<input type="email" class="form-control" id="InputEmailForm" aria-describedby="emailHelp"
+				placeholder="Ваш e-mail">
+			<a href="#" class="subscribe__button btn">подписаться</a>
+			<div class="agreement">
+				<input type="checkbox" id="agree_check" class="checkbox">
+				<label for="agree_check">Согласен с обработкой <a href="#" target="_blank" class="agree__data">персональных
+						данных</a></label>
+			</div>
+		</form>
+	</section>
+	<section class="description" id="about">
+		<div class="container">
+			<div class="descr__top">
+				<div class="descr__box">
+					<h2 class="text__title">О компании</h2>
+					<p class="deskr__text">Наша компания является одной из&nbspнемногих, кто предлагает фитнес услуги онлайн!
+						Оставайтесь
+						с&nbspнами и&nbspвы сами увидите, что мы проводим не&nbspтолько онлайн-тренировки.</p>
+					<button class="text__btn">Записаться</button>
+				</div>
+				<img src="/images/desxr.jpg" alt="descr" class="descr__top-img">
+			</div>
+			<div class="descr__table">
+				<div class="table__item">
+					<div class="item__title-descr ">Экономия времени</div>
+					<p class="item__subtile">Не нужно тратить время на дорогу</p>
+				</div>
+				<div class="table__item">
+					<div class="item__title-descr ">Индивидуальный подход</div>
+					<p class="item__subtile">Внимание тренера пренадлежит только вам</p>
+				</div>
+				<div class="table__item">
+					<h3 class="item__title-descr  ">Экономия денег</h3>
+					<p class="item__subtile">Средняя цена одной тренировки - 700₽</p>
+				</div>
+				<div class="table__item">
+					<div class="item__title-descr ">Опытный персонал</div>
+					<p class="item__subtile">Стаж работы у наших тренеров от 5 лет</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__content">
+				<div class="content__logo">
+					<a href="" class="logo__link">
+						<img src="/images/logo.svg" alt="logo" class="logo-img">
+					</a>
+					<ul class="footer__list">
+						<li class="list__item">
+							<a href="#events" class="list__item-link">Мероприятия</a>
+						</li>
+						<li class="list__item">
+							<a href="#schedule" class="list__item-link">Расписание</a>
+						</li>
+						<li class="list__item">
+							<a href="#about" class="list__item-link">О компании</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__contacts">
+					<div class="footer__circle"> </div>
+					<a href="mailto: abc@example.com" class="footer__mail">
+						info@freefit.com
+					</a>
+					<div class="header__icons-footer">
+						<a href="#" class="header__icons-inst header__icons-inst-footer "></a>
+						<a href="#" class="header__icons-facebook header__icons-facebook-footer "></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer__copy">
+				<p class="copy__text">&copy; 2022, Все права защищены</p>
+				<p class="copy__descr"><span>Сделано в рамках курса учебной платформы</span> <a
+						href="https://frontendblok.com/" target="_blank">Annblok</a></p>
+			</div>
+		</div>
+	</footer>
+	<div class="modal" id="modal">
+		<div class="header__top-modal">
+			<a href="#">
+				<img src="/images/logo.svg" alt="logo" class="header__logo-img-modal"></a>
+			<nav class="header__menu-modal">
+				<ul class="menu__list-modal">
+					<li><a class="menu__list-item-modal " onclick="closeModal()" href="#events">Мероприятия</a></li>
+					<li><a class="menu__list-item-modal " onclick="closeModal()" href="#schedule">Расписание</a></li>
+					<li><a class="menu__list-item-modal " onclick="closeModal()" href="#subscription">О компании</a></li>
+				</ul>
+			</nav>
+			<div class="header__icons-modal ">
+				<a href="#" class="header__icons-inst-modal"></a>
+				<a href="#" class="header__icons-facebook-modal"></a>
+			</div>
+		</div>
+		<div class="modal__bottom">
+			<button class="banner__btn modal__btn">Узнать подробнее</button>
+		</div>
+		<button class="modal__close" onclick="closeModal()"></button>
+	</div>
+	<script src="/js/main.js"></script>
+</body>
+
+</html>
