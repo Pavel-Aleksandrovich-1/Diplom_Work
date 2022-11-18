@@ -1026,7 +1026,8 @@ label[for="person_data"] a {
 	}
 
 	.banner-img {
-		object-fit: cover;
+		-o-object-fit: cover;
+		   object-fit: cover;
 		bottom: -132%;
 		left: 30%;
 		transform: scale(0.6);
@@ -1668,7 +1669,8 @@ label[for="person_data"] a {
 	}
 
 	.develope__block {
-		column-gap: 10px;
+		-moz-column-gap: 10px;
+		     column-gap: 10px;
 	}
 
 	.subscription {
@@ -2024,7 +2026,8 @@ label[for="person_data"] a {
 	}
 
 	.develope__block {
-		column-gap: 10px;
+		-moz-column-gap: 10px;
+		     column-gap: 10px;
 	}
 
 	.block__marathon-img {
